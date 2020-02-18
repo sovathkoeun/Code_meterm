@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: teal;
+
+}
+.container{
+    text-align: center;
+}
+#nameButton{
+    background: rgb(250, 156, 34);
+    padding: 13px 20px;
+    margin-left: -4px;
+    border: none;
+    border-radius: 0 5px 5px 0 ;
+}
+#input{
+    width: 35%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 39px;
+    border-radius: 5px 0 0 5px;
+  }
+.col-3{
+    float: left;
+    margin-left: 10px;
+    background: white;
+    width: 20%;
+    height: 120px;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cardButton{
+    width: 80px;
+    height: 30px;
+    background: orange;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+#Card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
